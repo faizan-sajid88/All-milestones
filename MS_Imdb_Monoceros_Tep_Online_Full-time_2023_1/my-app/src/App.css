@@ -1,0 +1,21 @@
+.movie-details{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+   
+}
+.movie-details div{
+    
+    margin-left: 20px;
+}
+.movie-image{
+    width: 100px;
+    height: 150px;
+    
+}
+
+.item-div{
+    width: 100px;
+    height: 100px;
+    color: aqua;
+}

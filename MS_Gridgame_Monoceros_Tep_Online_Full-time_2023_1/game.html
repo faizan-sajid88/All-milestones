@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <head>
+   <body>
+    <div class="game">
+    <h1>Grid Puzzel Game</h1>
+   
+       <hr>
+    <div class="game-block">
+        <div class="game-grid" id="img">
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" ong id="pzl-box1" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box2" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box3" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box4" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box5" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box6" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box7" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box8" style="display: none;"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" class="img-block" draggable="true" id="pzl-box9" style="display: none;"></div>
+        </div>
+    </div>
+   
+    
+    <div class="demo">
+       
+        <div class="demo-div" id="preview-img" style="display: none;"></div>
+        <div class="containt">
+            <p>Re arrange to create a picture like this at top left side</p>
+            <label for="input-img">Add Your Image</label>
+            <input type="file" id="input-img" accept="image/*">
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+</div>
+</div>
+        <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,547 @@
+#root{
+  background-color: #141518;
+}
+body{
+  background-color: #141518;
+
+}
+.header{
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px 5px;
+  justify-content: center;
+z-index: 2;
+position: fixed;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: row;
+  margin: 0 5px;
+}
+
+.right-side{
+margin-left: 5rem;
+}
+
+button{
+  margin:0 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-weight: bolder;
+  
+}
+
+.search-icon{
+  position: relative;
+  right:30px ;
+}
+
+.search input{
+ width: 500px;
+ height: 45px;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid white;
+  backdrop-filter: blur(5px);
+  margin-left: 10rem;
+  color: white;
+}
+
+.logo{
+  background-image: url("image/imgur-logo.png");
+  width: 100px;
+  margin-right: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;  
+}
+.logo1{
+  background-image: url("image/imgur-logo.png");
+  width: 200px;
+  height: 100px;
+  /* margin-right: 20px; */
+  background-size: contain;
+  background-repeat: no-repeat;  
+}
+
+/* sign in  */
+
+.sign-in{
+  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+
+.sign-in-form{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #2C2F34;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+ border-radius: 5px;
+ margin: 0;
+}
+
+
+.sign-in-imgur input{
+  width: 500px;
+  height: 45px;
+   padding: 5px;
+   background-color: transparent;
+   border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+  
+}
+
+.sign-in-btns{
+  display: inline-block;  
+}
+
+.sign-in-imgur a{
+  margin-left: 400px ;
+  color: aliceblue;
+}
+
+.sign-in-imgur{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.account-box{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #2C2F34;
+  backdrop-filter: blur(5px);
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.account-box i {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 80px;
+height: 50px;
+background-color: rgb(240, 243, 243);
+margin: 2px;
+border-radius: 5px;
+}
+
+/* sign up */
+
+input[type=text]:focus {
+  border: 1px solid #18f76d;
+}
+input[type=password]:focus {
+  border: 1px solid #18f76d;
+}
+input[type=number]:focus {
+  border: 1px solid #18f76d;
+}
+input[type=text]{
+  outline: none;
+}
+input[type=password]{
+  outline: none;
+}
+input[type=number]{
+  outline: none;
+}
+
+.sign-up{
+  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+
+.sign-up-form{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #2C2F34;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+ border-radius: 5px;
+ margin: 0;
+}
+
+
+.sign-up-imgur input{
+  width: 500px;
+  height: 45px;
+   padding: 5px;
+   background-color: transparent;
+   border-radius: 5px;
+   border: 1px solid gray;
+   margin: 2px;
+}
+
+.sign-up-btns{
+  display: inline-block;  
+}
+
+.sign-up-imgur a{
+  margin-left: 400px ;
+  color: aliceblue;
+}
+
+.sign-up-imgur{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+/* explore */
+
+.explore {
+  background-image: url("./image/imgur-bg.png");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  box-sizing: border-box;  
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  color: rgb(68, 203, 241);
+}
+
+#container{
+  z-index: 1;
+}
+
+.bg-for-nav{
+  background-image: url("./image/imgur-bg.png");
+  width: 100%;
+  height: 15vh;
+  position: sticky;
+  top: 0; 
+}
+
+.flexItems {
+  justify-content: space-between;
+}
+
+#heading {
+  color: #a3a2b5;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.tagLines-left {
+  color: #a3a2b5;
+  margin-bottom: 5px;
+}
+
+.box {
+  margin: 5px;
+}
+
+.box1 {
+  margin: 5px;
+  width: 220px;
+}
+
+#box-1 {
+  background-image: url("https://i.imgur.com/3MQtq1W_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-2 {
+  background-color: #bb2427;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-01 {
+  background-image: url("https://i.imgur.com/UZ42WEx_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-02 {
+  background-color: #40936d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-03 {
+  background-image: url("https://i.imgur.com/9r1qCDq_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-04 {
+  background-color: #69468c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-05 {
+  background-image: url("https://i.imgur.com/nrFCOUB_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-06 {
+  background-color: #3e306a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-07 {
+  background-image: url("https://i.imgur.com/avRBRpN_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-08 {
+  background-color: #60aebb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-09 {
+  background-image: url("https://i.imgur.com/vgAmxLl_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-10 {
+  background-color: #1bb76e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-11 {
+  background-image: url("https://i.imgur.com/2wD3VJA_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-12 {
+  background-color: #26606e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-13 {
+  background-image: url("https://i.imgur.com/tUX1dpv_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-14 {
+  background-color: #263ba7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-15 {
+  background-image: url("https://i.imgur.com/A2MU7EC_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box-16 {
+  background-color: #50535a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+#box-17 {
+  background-image: url("https://i.imgur.com/0LD8xD5_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+#box-18 {
+  background-color: #328d67;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+/* Post Section */
+
+#tagContainer {
+  width: 180vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 100px;
+  margin: 20px auto;
+}
+
+#tagContainer h3{
+  color: white;
+}
+
+.image-div{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2e3035;
+  color: white;
+  height: 350px;
+  width: 250px;
+  box-shadow: 2px 2px 4px black;
+}
+
+.image-div h3 {
+  font-size: 1.2rem;
+  margin: 2px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail p {
+  margin: 20px;
+}
+
+#imgContainer {
+  position: sticky;
+  top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.images {
+  background-image: url("https://i.imgur.com/lxzUnpb_d.webp?maxwidth=520&shape=thumb&fidelity=high");
+  height: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.images1 {
+  background-image: url("https://i.imgur.com/h1qibbs_d.webp?maxwidth=520&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 300px;
+}
+
+.images2 {
+  background-image: url("https://i.imgur.com/aswlnIb_d.webp?maxwidth=520&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 300px;
+}
+
+.images3 {
+  background-image: url("https://i.imgur.com/d95ZWfW_d.webp?maxwidth=520&shape=thumb&fidelity=high");
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 300px;
+}
+.post-section{
+  position: sticky;
+  top: 200px;
+}

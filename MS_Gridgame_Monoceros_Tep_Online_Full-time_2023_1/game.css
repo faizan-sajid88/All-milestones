@@ -1,0 +1,78 @@
+*{
+background-color: rgb(233, 233, 233);
+
+}
+h1 , p {
+    color: #242525;
+    background-color: #00CCC0;
+}
+.game-block{
+    background-color: #00CCC0;
+
+}
+.game{
+   background-color: #00CCC0;
+   text-align: center;
+   border-radius: 10px;
+   border: 1px solid #F27405;
+   box-shadow: 5px 5px 10px gray;
+   padding: 100px 20px;
+
+}
+[draggable] {
+    user-select: none;
+  }
+.demo{
+    display: inline-block;
+    padding: 10px;
+}
+.demo-div{
+    
+width:300px;
+height: 300px;
+object-fit: contain;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+}
+.containt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.game-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+   
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.img-block{
+    border: 2px solid white;
+    margin: 0;
+    padding: 0;
+    
+    width: 100px;
+    height: 100px;
+background-size: 300px 300px;
+}
+
+
+
+ #pzl-box1 { background-position: 0 0; }
+#pzl-box2  { background-position: -400px 0; }
+
+#pzl-box3 { background-position: -800px 0; }
+#pzl-box4 { background-position: 0 -400px; }
+#pzl-box5  { background-position: -400px -400px; }
+#pzl-box6 { background-position:-800px -400px; }
+#pzl-box7 { background-position: 0 -800px; }
+#pzl-box8 { background-position: -400px -800px; }
+#pzl-box9 { background-position: -800px -800px; } 
+
+
+ 
