@@ -1,9 +1,11 @@
 
 # <span style="font-size:larger;">My Learning Journey - Projects Showcase</span>
-# <span style="font-size:10px;">Welcome to my GitHub repository! 👋</span>
+
+# <span style="font-size:small;">Welcome to my GitHub repository! 👋</span>
 
 
-<h2>Introduction<h2/>
+## <h3>Introduction<h3/>
+  
 Hey there! I'm Faizan sajid, a passionate learner and aspiring front-end developer. This repository serves as a showcase of the projects I've worked on during my learning journey. Each project represents a milestone in my growth, demonstrating my evolving skills and dedication in web development.
 
 About My Projects
