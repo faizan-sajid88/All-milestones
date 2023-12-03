@@ -1,6 +1,6 @@
 # <span style="font-size:larger;">My Learning Journey - Projects Showcase</span>
 
-# <h2>Welcome to my GitHub repository! 👋<h2/>
+## <h2>Welcome to my GitHub repository! 👋<h2/>
 
  <h3>Introduction<h3/> 
   
