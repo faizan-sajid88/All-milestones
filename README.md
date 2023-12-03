@@ -1,4 +1,6 @@
-My Learning Journey - Projects Showcase
+
+# <span style="font-size:larger;">My Learning Journey - Projects Showcase</span>
+
 Welcome to my GitHub repository! 👋
 
 Introduction
