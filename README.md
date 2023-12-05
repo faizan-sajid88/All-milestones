@@ -12,13 +12,13 @@ These projects are a testament to my hands-on experience with various technologi
 
 # <h3>What You'll Find<h3/>
   
-1. Card game: A card game of 2 players.
-2. Chrome extension: extension for take notes.
-3. E-commerce website: fetch fake data and create a ecommerce website.
-4. Faker: fake data generator.
-5. Grid game: give your image and play grid game with your image.
-6. Imdb: imdb header clone in react.
-7. Imagur-frontend:clone of imgur in react.
-8. Instagram-story:create a clone story section of instagram in react native.
-9. Slack: chat app structure in electron js.
-10. Sudoku: sudoku game logic in js.
+1. Card Game: A two-player card game.
+2. Chrome Extension: A note-taking extension for Chrome.
+3. E-commerce Website: Fetch mock data and create an e-commerce website.
+4. Faker: A tool for generating fake data.
+5. Grid Game: Upload your image and play a grid game with it.
+6. IMDb: IMDb header clone developed in React.
+7. Imgur Frontend: React clone of Imgur.
+8. Instagram Story: Create a clone of Instagram's story section using React Native.
+9. Slack: Electron.js-based chat app structure.
+10. Sudoku: Sudoku game logic implemented in JavaScript.
